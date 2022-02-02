@@ -1,0 +1,28 @@
+@mixin media($size) {
+    @if($size==xlarge){
+        @media (min-width:1200px){
+            @content;
+        }
+    };
+    @if($size==large){
+        @media (min-width:991px) and (max-width:1270px){
+            @content
+        }
+    };
+    @if($size==medium){
+        @media (min-width:767px) and (max-width:990px){
+            @content
+        }
+    };
+    @if($size==small){
+        @media (min-width:500px) and (max-width:766px){
+            @content
+        }
+    };
+    @if($size==xsmall){
+        @media (max-width:500px){
+            @content
+        }
+    };
+    
+}
