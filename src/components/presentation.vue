@@ -100,7 +100,7 @@ export default {
       background-color: $white-color;
       font-family: Nunito;
       padding: 3px 2px;
-      width: 170px;
+      width: 180px;
       float: left;
       margin-top: 10px;
       @include text-style(18px , 500 , $black-color);

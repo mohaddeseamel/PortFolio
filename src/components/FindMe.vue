@@ -72,7 +72,7 @@ export default {
     .relations {
       display: flex;
       width: 60%;
-      margin-right: 18px;
+      margin-right: 38px;
 
 
       @include media(medium){
@@ -95,6 +95,9 @@ export default {
         @include media(small) {
             margin-left: 8px;
           }
+           @include media(xsmall) {
+            margin-left: 13px;
+          }
 
         .linkdin {
           @include findMe-style;
@@ -112,10 +115,8 @@ export default {
           }
 
           @include media(xsmall) {
-             @include text-style(0.8rem, 600, $white-color);
-             width: 75%;
-
-        
+             @include text-style(0.6rem, 600, $white-color);
+             width: 78%;
           }
 
           &:hover {
@@ -147,8 +148,8 @@ export default {
              width: 80%;
           }
           @include media(xsmall) {
-             @include text-style(0.8rem, 600, $white-color);
-             width: 75%;
+             @include text-style(0.6rem, 600, $white-color);
+             width: 78%;
           }
 
           &:hover {
@@ -180,8 +181,8 @@ export default {
              width: 80%;
           }
           @include media(xsmall) {
-             @include text-style(0.8rem, 600, $white-color);
-             width: 75%;
+             @include text-style(0.6rem, 600, $white-color);
+             width: 78%;
           }
 
           &:hover {
@@ -216,8 +217,8 @@ export default {
              width: 85%;
           }
           @include media(xsmall) {
-             @include text-style(0.8rem, 600, $white-color);
-             width: 82%;
+             @include text-style(0.6rem, 600, $white-color);
+             width: 78%;
           }
 
           &:hover {
@@ -250,8 +251,8 @@ export default {
              width: 85%;
           }
           @include media(xsmall) {
-             @include text-style(0.7rem, 600, $white-color);
-             width: 82%;
+             @include text-style(0.6rem, 600, $white-color);
+             width: 78%;
           }
 
           &:hover {
@@ -284,8 +285,8 @@ export default {
              width: 85%;
           }
           @include media(xsmall) {
-             @include text-style(0.8rem, 600, $white-color);
-             width: 82%;
+             @include text-style(0.6rem, 600, $white-color);
+             width: 78%;
              
           }
 
