@@ -72,6 +72,7 @@ export default {
     .relations {
       display: flex;
       width: 60%;
+      margin-right: 18px;
 
 
       @include media(medium){
@@ -82,14 +83,12 @@ export default {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-right: 40px;
       }
 
       @include media(xsmall) {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-right: 40px;
       }
 
       div {
@@ -114,7 +113,9 @@ export default {
 
           @include media(xsmall) {
              @include text-style(0.8rem, 600, $white-color);
-             width: 80%;
+             width: 75%;
+
+        
           }
 
           &:hover {
@@ -128,7 +129,7 @@ export default {
               font-size: 15px;
             }
             @include media(xsmall) {
-              font-size: 15px;
+              font-size: 10px;
             }
           }
         }
@@ -147,7 +148,7 @@ export default {
           }
           @include media(xsmall) {
              @include text-style(0.8rem, 600, $white-color);
-             width: 80%;
+             width: 75%;
           }
 
           &:hover {
@@ -161,7 +162,7 @@ export default {
               font-size: 15px;
             }
             @include media(xsmall) {
-              font-size: 15px;
+              font-size: 10px;
             }
           }
         }
@@ -180,7 +181,7 @@ export default {
           }
           @include media(xsmall) {
              @include text-style(0.8rem, 600, $white-color);
-             width: 80%;
+             width: 75%;
           }
 
           &:hover {
@@ -194,7 +195,7 @@ export default {
               font-size: 15px;
             }
             @include media(xsmall) {
-              font-size: 15px;
+              font-size: 10px;
             }
           }
         }
@@ -216,7 +217,7 @@ export default {
           }
           @include media(xsmall) {
              @include text-style(0.8rem, 600, $white-color);
-             width: 85%;
+             width: 82%;
           }
 
           &:hover {
@@ -230,7 +231,7 @@ export default {
               font-size: 15px;
             }
             @include media(xsmall) {
-              font-size: 15px;
+              font-size: 10px;
             }
           }
         }
@@ -250,7 +251,7 @@ export default {
           }
           @include media(xsmall) {
              @include text-style(0.7rem, 600, $white-color);
-             width: 85%;
+             width: 82%;
           }
 
           &:hover {
@@ -264,7 +265,7 @@ export default {
               font-size: 15px;
             }
             @include media(xsmall) {
-              font-size: 15px;
+              font-size: 10px;
             }
           }
         }
@@ -284,7 +285,8 @@ export default {
           }
           @include media(xsmall) {
              @include text-style(0.8rem, 600, $white-color);
-             width: 85%;
+             width: 82%;
+             
           }
 
           &:hover {
@@ -297,7 +299,8 @@ export default {
               font-size: 15px;
             }
             @include media(xsmall) {
-              font-size: 15px;
+              font-size: 10px;
+              
             }
           }
         }

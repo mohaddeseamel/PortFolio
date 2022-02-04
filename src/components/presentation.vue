@@ -91,7 +91,7 @@ export default {
         margin-right: 35px;
       }
       @include media (xsmall){
-        font-size: 25px;
+        font-size: 20px;
         margin-right: 40px;
       }
     }
@@ -100,10 +100,10 @@ export default {
       background-color: $white-color;
       font-family: Nunito;
       padding: 3px 2px;
-      width: 200px;
+      width: 170px;
       float: left;
       margin-top: 10px;
-      @include text-style(20px , 500 , $black-color);
+      @include text-style(18px , 500 , $black-color);
       animation: moveInBottom .5s ease-out .75s;
 
       &:hover {

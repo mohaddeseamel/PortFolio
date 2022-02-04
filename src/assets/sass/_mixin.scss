@@ -3,13 +3,10 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 @mixin IconSkills-style {
   font-size: 50px;
   margin-left: 20px;
 }
-
-
 @mixin baseStyle{
   display: flex;
   justify-content: center;
@@ -24,17 +21,20 @@
   cursor: pointer;
   transition: 0.3s all;
   font-family: Roboto;
+
 }
 @mixin hover-findMe {
   background-color: rgba(210, 210, 210 , 0.4);
+  
 }
-@mixin  findIcon {
+@mixin  findIcon{
   margin-right: 8px;
 }
 @mixin text-style($size, $weight, $color){
   font-size: $size;
   font-weight: $weight;
   color: $color;
+  text-align: center;
 }
 
 
